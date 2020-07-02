@@ -18,7 +18,7 @@ background-color: white;
 padding: 8px 15px;
 margin: 0 auto 20px;
 font-size: 42px;
-
+height: 46px;
 }
 
 .calc-row {
@@ -36,4 +36,11 @@ font-size: 42px;
     border: solid;
     border-width: 3px;
     margin: -1.5px;
+}
+
+.button:hover {
+
+opacity: .75;
+cursor: pointer;
+
 }
