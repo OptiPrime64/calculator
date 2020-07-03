@@ -10,6 +10,14 @@
     padding: 25px;
     border-radius: 23px;
 }
+.calc-display-total {
+
+    background-color: rgb(73, 73, 73);
+    padding: 0 15px;
+    font-size: 27px;
+    height: 30px;
+    color: lightgrey;
+}
 
 .calc-display {
 
