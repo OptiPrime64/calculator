@@ -110,7 +110,7 @@ function buttonClick(e) {
             calcTotal.textContent += clickNum;
 
 
-            if (calcDisplay.textContent.length > 13) {
+            if (calcDisplay.textContent.length > 11) {
                 alert('Number is too large');
                 calcDisplay.textContent = "";
                 calcTotal.textContent = "";

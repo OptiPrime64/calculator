@@ -9,9 +9,11 @@
     background-color: grey;
     padding: 25px;
     border-radius: 23px;
+    border: solid;
+    border-color: #656565;
 }
-.calc-display-total {
 
+.calc-display-total {
     background-color: rgb(73, 73, 73);
     padding: 0 15px;
     font-size: 27px;
@@ -20,13 +22,13 @@
 }
 
 .calc-display {
-
-
-background-color: white;
-padding: 8px 15px;
-margin: 0 auto 20px;
-font-size: 42px;
-height: 46px;
+    font-family: 'VT323', monospace;
+    color: #676666;
+    background-color: white;
+    padding: 1px 15px 17px;
+    margin: 0 auto 20px;
+    font-size: 61px;
+    height: 46px;
 }
 
 .calc-row {
@@ -34,6 +36,7 @@ height: 46px;
 }
 
 .button {
+    font-family: Impact, Charcoal, sans-serif;
     font-size: 50px;
     width: 100px;
     height: 75px;
@@ -44,11 +47,15 @@ height: 46px;
     border: solid;
     border-width: 3px;
     margin: -1.5px;
+    border-color: rgb(140, 175, 185);
+    color: rgb(71, 100, 109);
+}
+
+.op {
+    color: rgb(97, 129, 139);
 }
 
 .button:hover {
-
-opacity: .75;
-cursor: pointer;
-
+    background-color: rgb(188, 228, 241);
+    cursor: pointer;
 }
